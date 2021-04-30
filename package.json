@@ -15,9 +15,9 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "aws:update": "yarn run build && env-cmd claudia update",
-    "aws:create": "yarn run build && env-cmd claudia create --deploy-proxy-api --region ca-central-1 --handler lambda.handler",
-    "generate": "yarn build && env-cmd claudia generate-serverless-express-proxy --express-module lib/index",
+    "aws:update": "npm run build && env-cmd claudia update",
+    "aws:create": "npm run build && env-cmd claudia create --deploy-proxy-api --region ca-central-1 --handler lambda.handler",
+    "generate": "npm run build && env-cmd claudia generate-serverless-express-proxy --express-module lib/index",
     "build": "tsc",
     "test": "env-cmd claudia test-lambda"
   }
