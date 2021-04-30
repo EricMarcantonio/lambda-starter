@@ -1,0 +1,5 @@
+/.env
+/claudia.json
+/lambda.js
+/lib
+/node_modules
