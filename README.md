@@ -1,4 +1,4 @@
-# AWS Lambda Starting Template
+# AWS Lambda Starting Template :cloud_with_lightning:
 
 ### Includes:
 
